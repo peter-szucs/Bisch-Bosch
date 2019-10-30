@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="bishbosh.js"></script>
+</head>
+
+<body>
+    <h1>Bish-Bosh</h1>
+    <label for="number">Välj hur högt nummer du vill ha</label><br>
+    <input type="range" id="number" min="1" max="200" value="100" oninput="BishBosh()"><br>
+    <div id="numberShow"></div><br><br>
+    <label for="bish">Bishtal</label><br>
+    <input type="range" id="bish" min="1" max="200" value="100" oninput="BishBosh()"><br>
+    <div id="bishShow"></div><br><br>
+    <label for="bosh">Boshtal</label><br>
+    <input type="range" id="bosh" min="1" max="200" value="100" oninput="BishBosh()"><br><br>
+    <div id="boshShow"></div><br><br>
+    <div class="container">
+        <div id="out"></div>
+    </div>
+
+</body>
+
+</html>
